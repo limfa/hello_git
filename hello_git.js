@@ -9,3 +9,7 @@ git commit -m "first commit"\
 # 如果上一步失败，可根据提示操作\
 git push -u origin master';
 console.log(note ,'\n');
+note = '# 打上tag\
+git tag -a 0.0.1 -m "release v0.0.1"
+git push origin --tags';
+console.log(note ,'\n');
