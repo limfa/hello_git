@@ -6,10 +6,16 @@ Git命令学习
 
 git clone https://github.com/<user_name>/<module_name>'
 
+
 提交到暂存区
 git add *
+
+添加全局帐号
+git config --global user.email "you@example.com"
+
 提交到HEAD
 git commit -m "代码提交信息"
+
 提交到远程仓库
 git push origin master
 master 为默认分支
