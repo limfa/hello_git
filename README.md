@@ -44,6 +44,7 @@ _master 为默认分支_
 
     git pull
 
-打上tag\
-git tag -a 0.0.1 -m "release v0.0.1"
-git push origin --tags'
+打上tag并发布
+
+    git tag -a 0.0.1 -m "release v0.0.1"
+    git push origin --tags
