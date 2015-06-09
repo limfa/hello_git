@@ -2,10 +2,12 @@ Git命令学习
 ====
 参考：[git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
+
+# 基本命令
+----
 创建一个本地仓库的克隆版本从GitHub上
 
-git clone https://github.com/<user_name>/<module_name>'
-
+    git clone https://github.com/<user_name>/<module_name>
 
 提交到暂存区
 
@@ -22,7 +24,8 @@ git clone https://github.com/<user_name>/<module_name>'
 提交到远程仓库
 
     git push origin master
-_master 为默认分支_
+
++ _master 为默认分支_
 
 创建一个叫做“feature_x”的分支，并切换过去：
 
@@ -48,3 +51,17 @@ _master 为默认分支_
 
     git tag -a 0.0.1 -m "release v0.0.1"
     git push origin --tags
+
++ 0.0.1 为发布的版本号
+
+
+# 图形化界面
+----
+下载：<http://git-scm.com/downloads/guis>
+
+GitHub for Windows：https://windows.github.com
+
+
+# 参考
+----
+[github版本库使用详细教程(命令行及图形界面版)](http://www.woiweb.net/github-gitshell-tutorial.html)
