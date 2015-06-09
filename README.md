@@ -59,8 +59,12 @@ Git命令学习
 ----
 下载：<http://git-scm.com/downloads/guis>
 
-GitHub for Windows：https://windows.github.com
+[GitHub for Windows](https://windows.github.com)
++ 选择目录繁琐
++ 英文
 
+[SourceTree](https://www.sourcetreeapp.com/)
++ 
 
 # 参考
 ----
